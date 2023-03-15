@@ -1,4 +1,4 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 const PostSchema = new mongoose.Schema({
 
     title:{
@@ -10,7 +10,6 @@ const PostSchema = new mongoose.Schema({
     desc:{
         type:String,
         required:true,
-        unique:true
     },
 
     photo:{
